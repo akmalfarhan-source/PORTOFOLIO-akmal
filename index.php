@@ -1,5 +1,5 @@
 <?php
-// Validasi Form menggunakan PHP sesuai permintaan (empty, filter_var email)
+// Validasi Form menggunakan PHP sesuai permintaan
 $success_msg = "";
 $error_msg = "";
 
@@ -18,7 +18,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $error_msg = "Format email tidak valid!";
     } else {
         // Jika validasi sukses, tampilkan pesan sukses (Simulasi untuk presentasi)
-        // Note: Ini diaktifkan karena submission diarahkan ke halaman yang sama (action="").
         $success_msg = "Terima kasih $name, pesan Anda telah berhasil dikirim!";
         // Reset form setelah sukses
         $name = $email = $message = "";
@@ -32,21 +31,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- SECTION 1: HERO -->
     <section id="hero" class="hero">
         <div class="container hero-container animate">
-            <!-- Teks Hero -->
             <div class="hero-text">
                 <p class="greeting">Hello, I'm</p>
                 <h1>Akmal Farhan <span>Hidayat</span></h1>
                 <p class="tagline">Aspiring Data Scientist | IT Student at UNSIQ · Interested in Data Science, UI/UX &
                     Web Development | DBS Foundation Coding Camp Participant</p>
-
-                <!-- Tombol CTA -->
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary">Hubungi Saya <i class="fas fa-arrow-right"></i></a>
                     <a href="assets/cv/CV Akmal Farhan Hidayat.pdf" download class="btn btn-outline">Unduh CV <i
                             class="fas fa-download"></i></a>
                 </div>
-
-                <!-- Ikon Sosial Media -->
                 <div class="social-icons">
                     <a href="https://github.com/akmalfarhan-source" target="_blank"><i class="fab fa-github"></i></a>
                     <a href="https://linkedin.com/in/akmalfarhan-339959352" target="_blank"><i
@@ -55,8 +49,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <a href="mailto:farhanakmal500@gmail.com"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
-
-            <!-- Gambar / Foto Profil Hero -->
             <div class="hero-image">
                 <div class="ring"></div>
                 <img src="assets/img/Akmal Farhan Hidayat .png" alt="Akmal Farhan Hidayat">
@@ -69,7 +61,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="container animate">
             <h2 class="section-title">Tentang <span>Saya</span></h2>
             <div class="about-grid">
-                <!-- Deskripsi dan Info Kontak Detail -->
                 <div class="about-desc">
                     <p>Saya adalah seorang mahasiswa program studi Teknik Informatika di UNSIQ yang memiliki
                         ketertarikan tinggi pada bidang Data Science dan UI/UX Design. Saya selalu antusias
@@ -81,8 +72,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <p><strong>Alamat Lengkap:</strong> Pandansari, Mudal, Mojotengah, Wonosobo, Jawa Tengah</p>
                     </div>
                 </div>
-
-                <!-- Timeline Pendidikan Vertikal -->
                 <div class="about-timeline">
                     <h3>Riwayat Pendidikan</h3>
                     <div class="timeline">
@@ -173,7 +162,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="container animate">
             <h2 class="section-title">Certificates <span>Achievement</span></h2>
             <div class="cert-grid">
-                <!-- Data sertifikat dari Dicoding & DBS Foundation -->
                 <div class="cert-card">
                     <i class="fas fa-award cert-icon"></i>
                     <h3>Belajar Dasar Data Science</h3>
@@ -212,7 +200,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <section id="organization" class="organization section-padding bg-darker">
         <div class="container animate">
             <h2 class="section-title">Experience <span>Organization</span></h2>
-            <!-- Timeline Organisasi (Centered) -->
             <div class="timeline center-timeline">
                 <div class="timeline-item">
                     <div class="dot"></div>
@@ -248,7 +235,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="container animate">
             <h2 class="section-title">My <span>Projects</span></h2>
             <div class="projects-grid">
-                <!-- Kartu Proyek 1 -->
                 <div class="project-card">
                     <div class="project-img">
                         <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=500&q=80"
@@ -268,8 +254,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             Code</a>
                     </div>
                 </div>
-
-                <!-- Kartu Proyek 2 -->
                 <div class="project-card">
                     <div class="project-img">
                         <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=500&q=80"
@@ -287,8 +271,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             target="_blank"><i class="fab fa-github"></i> View Code</a>
                     </div>
                 </div>
-
-                <!-- Kartu Proyek 3 -->
                 <div class="project-card">
                      <div class="project-img">
                         <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=500&q=80"
@@ -316,8 +298,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="container animate">
             <h2 class="section-title">Contact <span>Me</span></h2>
             <div class="contact-grid">
-
-                <!-- Info Kontak Kiri -->
                 <div class="contact-info">
                     <h3>Mari Terhubung!</h3>
                     <p>Apakah Anda memiliki pertanyaan, atau sekadar ingin menyapa? Jangan ragu untuk
@@ -333,10 +313,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 target="_blank">@akmalf_co</a></li>
                     </ul>
                 </div>
-
-                <!-- Form Kanan Terintegrasi -->
                 <div class="contact-form">
-                    <!-- Tampilkan pesan sukses / error dari validasi PHP -->
                     <?php if (!empty($success_msg)): ?>
                         <div class="alert alert-success"><?php echo $success_msg; ?></div>
                     <?php endif; ?>
