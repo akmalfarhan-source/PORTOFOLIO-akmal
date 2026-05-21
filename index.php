@@ -344,12 +344,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <?php if (!empty($error_msg)): ?>
                         <div class="alert alert-danger"><?php echo $error_msg; ?></div>
                     <?php endif; ?>
-
-                    <!-- 
-                        Form menggunakan validasi PHP (action menunjuk ke halaman yang sama).
-                        Sesuai permintaan Anda, jika ingin langsung terhubung ke Formspree tanpa melewati validasi PHP:
-                        Ubah action="" menjadi action="https://formspree.io/f/YOUR_FORM_ID"
-                    -->
                     <form action=https://formspree.io/f/xqejewpn method="POST">
                         <div class="form-group">
                             <label for="name">Nama Lengkap</label>

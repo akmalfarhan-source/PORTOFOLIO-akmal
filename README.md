@@ -14,7 +14,7 @@ Website portofolio pribadi **Akmal Farhan Hidayat** yang dibuat sebagai tugas ma
 | **GitHub** | [akmalfarhan-source](https://github.com/akmalfarhan-source) |
 | **LinkedIn** | [akmalfarhan-339959352](https://linkedin.com/in/akmalfarhan-339959352) |
 | **Instagram** | [@akmalf_co](https://instagram.com/akmalf_co) |
-| **Lokasi** | Pandansari, Mudal, Mojotengah, Wonosobo, Jawa Tengah |
+| **Alamat** | Pandansari, Mudal, Mojotengah, Wonosobo, Jawa Tengah |
 
 ---
 
@@ -23,12 +23,44 @@ Website portofolio pribadi **Akmal Farhan Hidayat** yang dibuat sebagai tugas ma
 | Teknologi | Kegunaan |
 |-----------|----------|
 | **PHP** | Validasi form kontak, include header/footer, echo tahun otomatis |
-| **HTML5** | Struktur dan konten semua section |
-| **CSS3** | Styling, animasi scroll, layout responsif, CSS Variables |
+| **HTML** | Struktur dan konten semua section |
+| **CSS** | Styling, layout responsif, CSS Variables |
 | **JavaScript** | Hamburger menu mobile, animasi scroll, sticky navbar |
 | **Font Awesome** | Ikon sosial media dan dekorasi |
 | **Google Fonts** | Font Syne, DM Sans, JetBrains Mono |
 | **Formspree** | Integrasi form kontak ke Gmail |
+
+### Penjelasan Teknologi
+
+**1. PHP**
+PHP adalah bahasa pemrograman server yang digunakan untuk tiga hal utama:
+- **Validasi form kontak** — mengecek apakah nama, email, dan pesan sudah diisi dengan benar sebelum dikirim
+- **Include header/footer** — navbar dan footer cukup ditulis sekali lalu dipanggil dengan `include`
+- **Echo tahun otomatis** — `<?php echo date("Y"); ?>` di footer agar tahun berubah sendiri tanpa diedit manual
+
+**2. HTML**
+HTML adalah kerangka atau tulang punggung website ini. Semua yang terlihat di website — teks, gambar, tombol, form — semuanya dibuat menggunakan tag-tag HTML.
+
+**3. CSS**
+CSS bertugas membuat website ini terlihat menarik:
+- **CSS Variables** — warna utama disimpan di satu tempat (`:root`), cukup ubah di satu baris untuk ganti tema seluruh website
+- **Animasi scroll** — efek section muncul perlahan saat di-scroll menggunakan CSS transition
+- **Responsif** — tampilan otomatis menyesuaikan di HP maupun laptop menggunakan `@media query`
+
+**4. JavaScript**
+JavaScript menambahkan interaktivitas ke website:
+- **Hamburger menu** — tombol tiga garis di HP, dikontrol dengan `classList.toggle`
+- **Animasi scroll** — mendeteksi posisi scroll lalu menambahkan class CSS sehingga section muncul saat masuk layar
+- **Sticky navbar** — navbar berubah tampilan saat halaman di-scroll ke bawah
+
+**5. Font Awesome**
+Font Awesome adalah library ikon gratis. Semua ikon di website seperti GitHub, LinkedIn, Instagram, envelope, download — semuanya dari Font Awesome. Cara pakainya cukup satu tag HTML, contoh: `<i class="fab fa-github"></i>` → langsung muncul ikon GitHub.
+
+**6. Google Fonts**
+Google Fonts menyediakan font tulisan yang lebih menarik dari font bawaan browser. Digunakan 3 font berbeda: **Syne** untuk judul, **DM Sans** untuk teks biasa, dan **JetBrains Mono** untuk teks kode/teknis. Font-font ini di-load dari server Google secara gratis hanya dengan satu link di `<head>`.
+
+**7. Formspree**
+Formspree adalah layanan gratis yang menghubungkan form kontak website ke Gmail.
 
 ---
 
@@ -84,32 +116,6 @@ Portofolio/
 
 ---
 
-## Cara Menjalankan
-
-### Persyaratan
-- [XAMPP](https://www.apachefriends.org) (Apache + PHP)
-
-### Langkah-langkah
-
-1. Clone repository ini
-```bash
-git clone https://github.com/akmalfarhan-source/PORTOFOLIO-akmal.git
-```
-
-2. Salin folder ke htdocs XAMPP
-```
-C:/xampp/htdocs/Portofolio/
-```
-
-3. Jalankan **Apache** di XAMPP Control Panel
-
-4. Buka browser dan akses:
-```
-http://localhost/Portofolio/
-```
-
----
-
 ## Proyek yang Ditampilkan
 
 | Proyek | Teknologi | Link |
@@ -136,8 +142,7 @@ http://localhost/Portofolio/
 - Merancang Percakapan Cerdas di Azure AI Foundry — Microsoft/Dicoding
 - Belajar Machine Learning untuk Pemula — Dicoding
 - Belajar Dasar Visualisasi Data — Dicoding
-- DBS Foundation Coding Camp — Learning Path: Data Scientist
 
 ---
 
-*Dibuat untuk memenuhi tugas Mata Kuliah Pemrograman Web — UNSIQ 2025/2026*
+*Dibuat untuk memenuhi tugas Mata Kuliah Pemrograman Web — S1 Teknik Informatika*
