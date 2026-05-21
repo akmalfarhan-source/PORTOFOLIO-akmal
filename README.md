@@ -1,10 +1,10 @@
-# 🌐 PORTOFOLIO-akmal
+# PORTOFOLIO-akmal
 
 Website portofolio pribadi **Akmal Farhan Hidayat** yang dibuat sebagai tugas mata kuliah **Pemrograman Web** — S1 Teknik Informatika, Universitas Sains Al-Qur'an (UNSIQ).
 
 ---
 
-## 👤 Tentang Pemilik
+## Tentang Pemilik
 
 | Info | Detail |
 |------|--------|
@@ -18,7 +18,7 @@ Website portofolio pribadi **Akmal Farhan Hidayat** yang dibuat sebagai tugas ma
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 | Teknologi | Kegunaan |
 |-----------|----------|
@@ -32,7 +32,7 @@ Website portofolio pribadi **Akmal Farhan Hidayat** yang dibuat sebagai tugas ma
 
 ---
 
-## 📁 Struktur Folder
+## Struktur Folder
 
 ```
 Portofolio/
@@ -52,24 +52,24 @@ Portofolio/
 
 ---
 
-## 📄 Fitur Website
+## Fitur Website
 
 - ✅ **Hero Section** — foto profil, nama, tagline, tombol hubungi & unduh CV
 - ✅ **Tentang Saya** — deskripsi diri, alamat lengkap, timeline pendidikan
-- ✅ **Skills** — keahlian teknis (Data Science, Python, PHP, JS, dll)
+- ✅ **Skills** — keahlian teknis (Hard skill dan Soft Skill)
 - ✅ **Hobi** — minat dan kegiatan di luar coding
-- ✅ **Sertifikat** — sertifikat dari Dicoding & DBS Foundation
+- ✅ **Sertifikat** — sertifikat pencapaian
 - ✅ **Organisasi** — timeline pengalaman berorganisasi
-- ✅ **Proyek** — kartu proyek dengan link GitHub & tech stack
+- ✅ **Proyek** — kartu proyek dengan link GitHub
 - ✅ **Kontak** — form dengan validasi PHP terintegrasi Formspree → Gmail
 - ✅ **Unduh CV** — tombol download CV langsung dari website
 - ✅ **Responsif** — tampilan menyesuaikan di HP maupun desktop
 - ✅ **Animasi Scroll** — section muncul saat di-scroll
-- ✅ **Dark Theme** — tampilan gelap dengan aksen cyan dan hijau
+- ✅ **Dark Theme** — tampilan gelap 
 
 ---
 
-## 📚 Konsep PHP yang Diterapkan
+## Konsep PHP yang Diterapkan
 
 | Konsep | Penjelasan |
 |--------|------------|
@@ -84,7 +84,7 @@ Portofolio/
 
 ---
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 ### Persyaratan
 - [XAMPP](https://www.apachefriends.org) (Apache + PHP)
@@ -110,7 +110,7 @@ http://localhost/Portofolio/
 
 ---
 
-## 🗂️ Proyek yang Ditampilkan
+## Proyek yang Ditampilkan
 
 | Proyek | Teknologi | Link |
 |--------|-----------|------|
@@ -120,7 +120,7 @@ http://localhost/Portofolio/
 
 ---
 
-## 🏢 Pengalaman Organisasi
+## Pengalaman Organisasi
 
 - **Staff PSDM** — Himpunan Mahasiswa Teknik Informatika (HIMTI) UNSIQ · 2024–sekarang
 - **Koordinator Bina Sosial** — UKK Racana Jogonegoro UNSIQ · 2024–sekarang
@@ -129,7 +129,7 @@ http://localhost/Portofolio/
 
 ---
 
-## 🎓 Sertifikasi
+## Sertifikasi
 
 - Memulai Dasar Pemrograman untuk Menjadi Pengembang Software — Dicoding
 - Pengenalan ke Logika Pemrograman (Programming Logic 101) — Dicoding
