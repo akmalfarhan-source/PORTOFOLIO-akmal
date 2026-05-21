@@ -26,7 +26,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 <?php include 'includes/header.php'; ?>
 
-<!-- MAIN CONTENT -->
 <main>
     <!-- SECTION 1: HERO -->
     <section id="hero" class="hero">
@@ -78,7 +77,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="timeline-item">
                             <div class="dot"></div>
                             <h4> Universitas Sains Al-Qur'an</h4>
-                            <span class="date">Sep 2024 – Sekarang</span>
+                            <span class="date">Sep 2024 - Sekarang</span>
                             <p>S1 Teknik Informatika</p>
                         </div>
                         <div class="timeline-item">
@@ -90,18 +89,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="timeline-item">
                             <div class="dot"></div>
                             <h4>MAN 1 Wonosobo</h4>
-                            <span class="date">2021 – 2024</span>
+                            <span class="date">2021 - 2024</span>
                             <p>Jurusan: IPA</p>
                         </div>
                         <div class="timeline-item">
                             <div class="dot"></div>
                             <h4>SMP Al-Madina Wonosobo</h4>
-                            <span class="date">2018 – 2021</span>
+                            <span class="date">2018 - 2021</span>
                         </div>
                         <div class="timeline-item">
                             <div class="dot"></div>
                             <h4>SD Al-Madina Wonosobo</h4>
-                            <span class="date">2012 – 2018</span>
+                            <span class="date">2012 - 2018</span>
                         </div>
                     </div>
                 </div>
